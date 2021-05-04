@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> All Products ShopUz | E-commerce Website </title>
+	<link rel="stylesheet" href="HomePage.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+ 
+<div class="container">
+  <div class="navbar">
+		<div class="logo">
+			<a href="Homepage.html"><img src="Images/logo.png" width="125px"></a>
+	    </div>
+		<nav>
+			<ul>
+				<li><a href="Homepage.html">Home</a> </li>
+				<li><a href="products.html">products</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="account.html">Account</a></li>
+			</ul>
+			</nav>
+	 	<a href="cart.html"><img src="Images/cart1.png" width="30px" height="30px"></a>
+	   <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+		</div>
+	</div>	
+
+	
+	
+	
+	<!-----------single product details------------->
+	<div class="small-container single-product">
+		<div class="row">
+			<div class="col-2">
+				<img src="Images/gallery-1.jpg">
+			</div>
+			<div class="col-2">
+				<p>Home / T-Shirt</p>
+				<h1>Red Printed T-Shirt By HRX</h1>
+				<h4>Rs 1500.00</h4>
+				<select>
+					<option>Select Size</option>
+					<option>XXL</option>
+					<option>XL</option>
+					<option>Large</option>
+					<option>Medium</option>
+					<option>Small</option>
+				</select>
+				<input type="number" value="1">
+				<a href="" class="btn">Add to Cart</a>
+				<h3>Product Details</h3>
+				<p>mona hari product eka gana</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="small-container">
+		<div class="row">
+			<div class="col-4">
+				<img src="Images/category-1.jpg">
+				<h4>item eke nama</h4>
+				<div class="rating">
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star-o" ></i>
+				 </div>
+				<p>Rs.1500.00</p>
+			</div>
+			<div class="col-4">
+				<img src="Images/category-1.jpg">
+				<h4>item eke nama</h4>
+				<div class="rating">
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star-o" ></i>
+				 </div>
+				<p>Rs.1500.00</p>
+			</div>
+			<div class="col-4">
+				<img src="Images/category-1.jpg">
+				<h4>item eke nama</h4>
+				<div class="rating">
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star-o" ></i>
+				 </div>
+				<p>Rs.1500.00</p>
+			</div>
+			<div class="col-4">
+				<img src="Images/category-1.jpg">
+				<h4>item eke nama</h4>
+				<div class="rating">
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star" ></i>
+					<i class="fa fa-star-o" ></i>
+				 </div>
+				<p>Rs.1500.00</p>
+			</div>
+		</div>
+	</div>
+	
+<!------------footer------------>
+	
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Download our App</h3> 
+					<p>Download App for Android and ISo Mobile Phone</p>
+					<div class="app-logo">
+						<img src="Images/play-store.png">
+						<img src="Images/app-store.png">
+					</div>
+				</div>
+				<div class="footer-col-2">
+					<img src="Images/logow.png">
+					<p>our purpose is always give best products to out valuble customers.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3> 
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+					</ul>
+				</div>
+				<div class="footer-col-3">
+					<h3>Information</h3> 
+					<ul>
+						<li>About Us</li>
+						<li>Contact </li>
+						<li>Terms and Conditions</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2020</p>
+		</div>
+	</div>
+	<!--------JS for toggle menu------------>
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight == "0px")
+				{
+					MenuItems.style.maxHeight = "200px";
+				}
+			else
+			    {
+					MenuItems.style.maxHeight = "0px";	
+				}
+			
+		}
+	</script>
+	
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
+ 
